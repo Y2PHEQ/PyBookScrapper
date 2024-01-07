@@ -1,22 +1,22 @@
-![Image](https://raw.githubusercontent.com/sintxcs/Facebook_Scrapper/main/assets/facebook_scrapper.jpg)
+![Image](https://raw.githubusercontent.com/sintxcs/PyBookScrapper/main/assets/PyBookScrapper.jpg)
 
 ## Terminal Installation
 ```ruby
-pip3 install Facebook_Scrapper
+pip3 install PyBookScrapper
 ```
 
 ## Importing the module in your script
 ```python
 try:
-    import Facebook_Scrapper
+    import PyBookScrapper
 except ModuleNotFoundError:
-    os.system("pip3 install Facebook_Scrapper")
-    import Facebook_Scrapper
+    os.system("pip3 install PyBookScrapper")
+    import PyBookScrapper
 ```
 
 ## Year Scrapper
 ```python
-from Facebook_Scrapper import Scrape_Year
+from PyBookScrapper import Scrape_Year
 
 Input Example:
 uid = "61553865513324"
@@ -28,7 +28,7 @@ Account Year: 2023
 
 ## Followers Scrapper
 ```python
-from Facebook_Scrapper import Scrape_Followers
+from PyBookScrapper import Scrape_Followers
 
 Input Example:
 token = "EAADmFOBtT9aM0******VD3MBKYOrzIg2Bd4nzlhstptx554******4c9PVGsx4R9JU89a7iy0GybnUZBLrIUy0wIEsIhuh2k2XNvTYOfZAGnY4Hp*******CxknZBq1L8427X2aBIDpbntW5XGXzqNzPBwNElztX5qF*****ZA68vrx1NQZDZD"
@@ -41,7 +41,7 @@ Followers: 50
 
 ## Friends Scrapper
 ```python
-from Facebook_Scrapper import Scrape_Friends
+from PyBookScrapper import Scrape_Friends
 
 Input Example:
 token = "EAADmFOBtT9aM0******VD3MBKYOrzIg2Bd4nzlhstptx554******4c9PVGsx4R9JU89a7iy0GybnUZBLrIUy0wIEsIhuh2k2XNvTYOfZAGnY4Hp*******CxknZBq1L8427X2aBIDpbntW5XGXzqNzPBwNElztX5qF*****ZA68vrx1NQZDZD"
@@ -54,7 +54,7 @@ Friends: 25
 
 ## Name Scrapper
 ```python
-from Facebook_Scrapper import Scrape_Name
+from PyBookScrapper import Scrape_Name
 
 Input Example:
 token = "EAADmFOBtT9aM0******VD3MBKYOrzIg2Bd4nzlhstptx554******4c9PVGsx4R9JU89a7iy0GybnUZBLrIUy0wIEsIhuh2k2XNvTYOfZAGnY4Hp*******CxknZBq1L8427X2aBIDpbntW5XGXzqNzPBwNElztX5qF*****ZA68vrx1NQZDZD"
