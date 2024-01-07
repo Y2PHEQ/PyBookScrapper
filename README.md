@@ -1,6 +1,5 @@
-
 <p align="center">
-  <a href="https://github.com/artsvn/PocketLoki">
+  <a href="https://github.com/sintxcs">
     <img src="https://raw.githubusercontent.com/sintxcs/PyBookScrapper/main/assets/PyBookScrapper.jpg" alt="Logo">
   </a>
   <p align="center">
