@@ -1,55 +1,68 @@
-![Image](https://raw.githubusercontent.com/sintxcs/Facebook_scrapper/main/assets/facebook_scrapper.jpg)
+![Image](https://raw.githubusercontent.com/sintxcs/Facebook_Scrapper/main/assets/facebook_scrapper.jpg)
 
 ## Terminal Installation
 ```ruby
-pip3 install facebook_scrapper
+pip3 install Facebook_Scrapper
 ```
 
 ## Importing the module in your script
 ```python
 try:
-    import facebook_scrapper
+    import Facebook_Scrapper
 except ModuleNotFoundError:
-    os.system("pip3 install facebook_scrapper")
-    import facebook_scrapper
+    os.system("pip3 install Facebook_Scrapper")
+    import Facebook_Scrapper
 ```
 
 ## Year Scrapper
 ```python
-from facebook_scrapper import scrape_year
+from Facebook_Scrapper import Scrape_Year
 
 Input Example:
 uid = "61553865513324"
-print(f"ACCOUNT YEAR: {scrape_year(uid)}")
+print(f"ACCOUNT YEAR: {Scrape_Year(uid)}")
 
 Output Example:
-ACCOUNT YEAR: 2023
+Account Year: 2023
 ```
 
 ## Followers Scrapper
 ```python
-from facebook_scrapper import scrape_followers
+from Facebook_Scrapper import Scrape_Followers
 
 Input Example:
 token = "EAADmFOBtT9aM0******VD3MBKYOrzIg2Bd4nzlhstptx554******4c9PVGsx4R9JU89a7iy0GybnUZBLrIUy0wIEsIhuh2k2XNvTYOfZAGnY4Hp*******CxknZBq1L8427X2aBIDpbntW5XGXzqNzPBwNElztX5qF*****ZA68vrx1NQZDZD"
 
-print(f"FOLLOWERS: {scrape_followers(token)}")
+print(f"Followers: {Scrape_Followers(token)}")
 
 Output Example:
-FOLLOWERS: 50
+Followers: 50
 ```
 
 ## Friends Scrapper
 ```python
-from facebook_scrapper import scrape_friends
+from Facebook_Scrapper import Scrape_Friends
 
 Input Example:
 token = "EAADmFOBtT9aM0******VD3MBKYOrzIg2Bd4nzlhstptx554******4c9PVGsx4R9JU89a7iy0GybnUZBLrIUy0wIEsIhuh2k2XNvTYOfZAGnY4Hp*******CxknZBq1L8427X2aBIDpbntW5XGXzqNzPBwNElztX5qF*****ZA68vrx1NQZDZD"
 
-print(f"FRIENDS: {scrape_friends(token)}")
+print(f"Friends: {Scrape_Friends(token)}")
 
 Output Example:
-FOLLOWERS: 25
+Friends: 25
+```
+
+## Name Scrapper
+```python
+from Facebook_Scrapper import Scrape_Name
+
+Input Example:
+token = "EAADmFOBtT9aM0******VD3MBKYOrzIg2Bd4nzlhstptx554******4c9PVGsx4R9JU89a7iy0GybnUZBLrIUy0wIEsIhuh2k2XNvTYOfZAGnY4Hp*******CxknZBq1L8427X2aBIDpbntW5XGXzqNzPBwNElztX5qF*****ZA68vrx1NQZDZD"
+
+print(f"Name: {Scrape_Name(token)}")
+
+Output Example:
+Name: sintacs.
 ```
 
 ## Social Links
