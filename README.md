@@ -1,4 +1,11 @@
-![Image](https://raw.githubusercontent.com/sintxcs/PyBookScrapper/main/assets/PyBookScrapper.jpg)
+
+<p align="center">
+  <a href="https://github.com/artsvn/PocketLoki">
+    <img src="https://raw.githubusercontent.com/sintxcs/PyBookScrapper/main/assets/PyBookScrapper.jpg" alt="Logo">
+  </a>
+  <p align="center">
+    A Python module that can scrape the name and the year of a Facebook account. Friends and followers count using Facebook tokens.<b>
+</p>
 
 ## Terminal Installation
 ```ruby
