@@ -8,7 +8,7 @@
 
 ## Terminal Installation
 ```ruby
-pip3 install PyBookScrapper
+pip3 install git+https://github.com/sintxcs/PyBookScrapper.git
 ```
 
 ## Importing the module in your script
