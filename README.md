@@ -16,7 +16,7 @@ pip3 install git+https://github.com/sintxcs/PyBookScrapper.git
 try:
     import PyBookScrapper
 except ModuleNotFoundError:
-    os.system("pip3 install PyBookScrapper")
+    os.system("pip3 install git+https://github.com/sintxcs/PyBookScrapper.git")
     import PyBookScrapper
 ```
 
