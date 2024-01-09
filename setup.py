@@ -2,7 +2,7 @@ import pathlib
 from setuptools import setup
 from setuptools import find_packages
 
-PACKAGE = "PybookScrapper"
+PACKAGE = "PyBookScrapper"
 THIS_DIR = pathlib.Path(__file__).parent
 LONG_DESCRIPTION = (THIS_DIR / "README.md").read_text()
 
@@ -23,7 +23,7 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Education',
         'Operating System :: Microsoft :: Windows :: Windows 10',
-        'License :: OSI Approved :: MIT License',
+        'License :: MIT License',
         'Programming Language :: Python :: 3'
     ],
     #setup_requires=["wheel"],
