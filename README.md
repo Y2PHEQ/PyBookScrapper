@@ -70,8 +70,8 @@ print(f"Name: {Scrape_Name(token)}")
 Output Example:
 Name: sintacs.
 ```
-> **Disclaimer**: For educational purposes only. I won't take any responsibility if any users take advantage of this and exploit it for illicit activities.
-
+> [!WARNING]  
+> *This tool is for educational purposes only. I won't take any responsibility if any users take advantage of this and exploit it for illicit activities.*
 
 ## Social Links
 [Facebook](https://facebook.com/sintxcs) • [Telegram](https://t.me/syntxcs)
