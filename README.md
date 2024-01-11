@@ -3,7 +3,7 @@
     <img src="https://raw.githubusercontent.com/sintxcs/PyBookScrapper/main/assets/PyBookScrapper.jpg" alt="Logo">
   </a>
   <p align="center">
-    A Python module that can scrape the name and the year of a Facebook account. Friends and followers count using Facebook tokens.<b>
+    A Python module that can scrape the name and the year of a Facebook account. Friends and followers count using Facebook tokens.
 </p>
 
 ## Terminal Installation
@@ -70,6 +70,8 @@ print(f"Name: {Scrape_Name(token)}")
 Output Example:
 Name: sintacs.
 ```
+> **Disclaimer**: For educational purposes only. I won't take any responsibility if any users take advantage of this and exploit it for illicit activities.
+
 
 ## Social Links
 [Facebook](https://facebook.com/sintxcs) • [Telegram](https://t.me/syntxcs)
